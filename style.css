@@ -1,0 +1,291 @@
+
+body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 600px;
+}
+
+.left .logo a img {
+    height: 80px;
+    margin-bottom: -150px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+.left .name h1 {
+    color: aliceblue;
+    margin-left: 180px;
+    margin-top: 83px;
+    margin-bottom: -120px;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: #222222;
+    position: relative;
+}
+
+.left .text p {
+    color: antiquewhite;
+    margin-left: 60px;
+    margin-top: -20px;
+    font-size: xxx-large;
+}
+
+.left .contact {
+    float: left;
+    width: 50%;
+}
+
+.left .contact .phone p a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.left .contact .phone p {
+    color: aliceblue;
+    margin-top: -20px;
+    margin-left: 60px;
+    font-size: large;
+}
+
+.left .contact .mail p {
+    color: aliceblue;
+    margin-top: 7px;
+    margin-left: 60px;
+    font-size: large;
+}
+
+.left .contact .mail p a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.left .media {
+    float: right;
+    width: 50%;
+}
+
+.left .slogon h4 {
+    color: rgb(43, 178, 227);
+    margin-top: 185px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.left .socials a {
+    margin-left: -13px;
+    margin-top: -5px;
+    font-size: large;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.left .s-photo a img {
+    height: 30px;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+
+.left .socials2 a {
+    margin-left: -13px;
+    margin-top: -5px;
+    font-size: large;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.left .s-photo2 a img {
+    height: 30px;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    margin-left: 98px;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(55, 55, 55);
+    border-left: 80px solid #222222;
+    border-bottom: 600px solid transparent;
+    box-sizing: border-box;
+}
+
+.right img:nth-child(1) {
+    display: inline-block;
+    border-radius: 20px;
+    height: 150px;
+    margin-top: 350px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.right img:nth-child(2){
+    display: inline-block;
+    height: 30px;
+    margin-bottom: 133px;
+    margin-left: -262px;
+    margin-right: 220px;
+    
+}
+
+.right img:nth-child(4){
+    display: inline-block;
+    height: 30px;
+    margin-bottom: 330px;
+    margin-left: -240px;
+    
+}
+
+.right video {
+    display: inline-block;
+    border-radius: 20px;
+    margin-bottom: -50px;
+    margin-left: 40px;
+    height: 400px;
+    width: auto;
+    overflow: hidden;
+}
+
+.services {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('back\ black.jpg');
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.services p {
+    font-size: x-large;
+    margin: 0 200px;
+}
+
+.us {
+    width: 100%;
+    height: 300px;
+    background-color: #222222;
+    margin: 0;
+}
+
+.us .Why b {
+    height: 50%;
+    font-size: xx-large;
+    color: aliceblue;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+
+.us .rea p {
+    height: 50%;
+    font-size: x-large;
+    color: aliceblue;
+    margin: 0 200px;
+    margin-top: 50px;
+}
+
+.reach { 
+    margin-top: -15px;
+    background-color: rgb(55, 55, 55);
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reach form p {
+    font-size: x-large;
+    color: aliceblue;
+    margin-bottom: -15px;
+}
+
+.reach span form {
+    font-size: larger;
+    color: aliceblue;
+    border: 3px solid rgb(111, 111, 111);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.reach span form input[type=submit] {
+    background-color: #870078;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.reach span form input[type=text] {
+    outline: none;
+  }
+
+  .reach span form input[type=number] {
+    outline: none;
+}
+
+.reach span form input[type=email] {
+    outline: none;
+}
+
+.reach span form textarea {
+    outline: none;
+}
+
+.foot {
+    height: 250px;
+    background-color: #222222;
+    margin-top: -21px;
+}
+
+.foot h1 {
+    color: aliceblue;
+    margin-left: 60px;
+    font-size: xx-large;
+}
+
+.foot p{
+    color: aliceblue;
+    margin-left: 60px;
+    font-size: larger;
+}
+
+.foot p a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+}
+
+.foot hr {
+    margin: 0 16px;
+    color: rgb(111, 111, 111);
+    border: 1.5px solid;
+}
+
+.foot img {
+    height: 30px;
+    margin-top: 10px;
+}
+
+.foot .img1 {
+    float: left;
+    margin-left: 55px;
+    margin-right: -400px;
+}
+
+.foot .img2 {
+    float: right;
+    margin-left: -100px;
+    margin-right: 1220px;
+}
