@@ -249,42 +249,42 @@ body {
     margin-top: -21px;
 }
 
-.foot h1 {
+.foot .foo h1 {
     color: aliceblue;
     margin-left: 60px;
     font-size: xx-large;
 }
 
-.foot p{
+.foot .foo p{
     color: aliceblue;
     margin-left: 60px;
     font-size: larger;
 }
 
-.foot p a {
+.foot .foo p a {
     text-decoration: none;
     color: aliceblue;
     font-size: larger;
 }
 
-.foot hr {
+.foot .foo hr {
     margin: 0 16px;
     color: rgb(111, 111, 111);
     border: 1.5px solid;
 }
 
-.foot img {
+.foot .foo img {
     height: 30px;
     margin-top: 10px;
 }
 
-.foot .img1 {
+.foot .foo .img1 {
     float: left;
     margin-left: 55px;
     margin-right: -400px;
 }
 
-.foot .img2 {
+.foot .foo .img2 {
     float: right;
     margin-left: -100px;
     margin-right: 1220px;
